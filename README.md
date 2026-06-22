@@ -15,11 +15,10 @@ pip install -r requirements.txt
 python Fayton_Weather.py
 ```
 
-## ویژگی‌های بهبود یافته
-- Classification + Regression
-- Golden Ratio Uncertainty قوی‌تر
-- پشتیبانی از چند شهر ایران
-- تست ۳، ۷ و ۱۴ روزه
-- ذخیره مدل کامل
+**همه کدها کاملاً بروزرسانی شدند!**
 
-نتایج تست در TEST_RESULTS.md
+- FaytonWeatherModel کامل با uncertainty طلایی
+- اتصال به API واقعی
+- تست‌های چندروزه
+- ذخیره مدل
+
