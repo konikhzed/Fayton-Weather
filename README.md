@@ -1,30 +1,25 @@
 # Fayton-Weather
 
-## مدل بهبودیافته تشخیص و پیش‌بینی آب و هوا با نسبت طلایی (Golden Ratio)
+**مدل پیش‌بینی و تشخیص آب و هوا بر اساس نسبت طلایی، اعداد خاص کاربر و زوایا**
 
-این پروژه مدل یادگیری ماشین برای تشخیص شرایط آب و هوایی (Sunny, Rainy, Cloudy, Stormy) است.
+Developed by konikhzed with special numbers and Golden Ratio integration.
 
-### نتیجه تست واقعی با داده‌های Open-Meteo (تهران - ۱۶ ژوئن ۲۰۲۶)
+**لینک GitHub:** [https://github.com/konikhzed/Fayton-Weather](https://github.com/konikhzed/Fayton-Weather)
 
-**داده‌های واقعی گرفته‌شده:**
-- مکان: تهران (۳۵.۶۸۹۲, ۵۱.۳۸۹۰)
-- دوره: داده‌های ساعتی اخیر و پیش‌بینی
-- ویژگی‌ها: دما، رطوبت، فشار، سرعت باد، بارش، پوشش ابری
-
-**عملکرد مدل:**
-- **Accuracy**: حدود ۰.۸۲ تا ۰.۸۷ (۸۲٪ - ۸۷٪)
-- **F1 Score**: ۰.۸۰ - ۰.۸۵
-- مدل با تزریق uncertainty بر اساس نسبت طلایی (Golden Ratio ≈ ۱.۶۱۸) تست شده و عملکرد پایدار نشان داده است.
-
-### نحوه اجرا
+## نحوه استفاده
 
 ```bash
 git clone https://github.com/konikhzed/Fayton-Weather.git
 cd Fayton-Weather
-pip install requests pandas numpy scikit-learn matplotlib seaborn
+pip install -r requirements.txt
 python Fayton_Weather.py
 ```
 
-نمودارها و گزارش تست در فایل `Fayton_Weather.py` ذخیره می‌شوند.
+## ویژگی‌های بهبود یافته
+- Classification + Regression
+- Golden Ratio Uncertainty قوی‌تر
+- پشتیبانی از چند شهر ایران
+- تست ۳، ۷ و ۱۴ روزه
+- ذخیره مدل کامل
 
-**توسعه‌دهنده:** konikhzed
+نتایج تست در TEST_RESULTS.md
